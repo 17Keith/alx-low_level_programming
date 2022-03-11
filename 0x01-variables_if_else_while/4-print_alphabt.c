@@ -13,23 +13,13 @@
  */
 
 int main(void)
-
 {
-
-	char alp[26] = "abcdfghijklmnoprstuvwxyz";
-
-	int a;
-
-
-
-	for (a = 0; a < 26; a++)
-
+	char letter;
+	for (letter = 'a'; letter < 'z'; letter++)
 	{
-
-		putchar(alp[a]);
-
+	if (letter != 'e' && letter!= 'q')
+	putchar(letter);
 	}
-
 	putchar('\n');
 
 	return (0);
