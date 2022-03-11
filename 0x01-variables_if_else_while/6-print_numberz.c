@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Prints out single digit numbers
- *
- * Return 0 (Success)
- */
+* main - Print all single digit numbers using only putchar
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 	int digit;
@@ -15,5 +15,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-
 }
