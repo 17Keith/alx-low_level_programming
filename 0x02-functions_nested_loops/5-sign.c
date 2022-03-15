@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_sign - Prints +, -, or 0 
- * if the number is greater than zero, 
+ * print_sign - Prints +, -, or 0
+ * if the number is greater than zero,
  * less than zero
  * or zero, respectively.
  *
