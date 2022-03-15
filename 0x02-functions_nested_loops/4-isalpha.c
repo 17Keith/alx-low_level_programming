@@ -3,10 +3,11 @@
 /**
  * _isalpha - Shows 1 if the input of c is lowercase or uppercase
  * Return: 1 for letter. Returns 0 for characters
+ * @c: The character in ASCII code
  */
 int _isalpha(int c)
 {
-	if ((c >= 97 && c <= 122) || (c >= 65 && c<= 90))
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
 	return (1);
 	}
