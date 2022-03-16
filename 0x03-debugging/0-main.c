@@ -10,7 +10,7 @@ int main(void)
         int i;
 
 	i = 98;
-	positivei_or_negative(i);
+	positive_or_negative(i);
 
         return (0);
 }
