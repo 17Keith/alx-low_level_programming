@@ -1,18 +1,17 @@
 #include "main.h"
 
 /**
- *_puts - prints a string, to stdout
- *@str: value to be evaluate.
- *Return: no return
+ * _puts - prints string
+ * @str: input string
+ * Return: no return
  */
 
 void _puts(char *str)
 {
-
-	while (str != '\0')
+	while (*str != '\0')
 	{
-		_puts(*str);
+		_putchar(*str);
 		str++;
 	}
-	_puts('\n');
+	_putchar('\n');
 }
