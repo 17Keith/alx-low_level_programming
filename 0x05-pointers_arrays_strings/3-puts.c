@@ -3,18 +3,16 @@
 /**
  *_puts - prints a string, to stdout
  *@str: value to be evaluate.
- *Return: not.
+ *Return: no return
  */
 
 void _puts(char *str)
 {
-	char l;
-	int l = 0;
 
-	while (*(str + l) != '\0')
+	while (str != '\0')
 	{
-		_puts(str[l]);
-		l++;
+		_putchar(*str);
+		str++;
 	}
-	_puts('\n');
+	_putchar('\n');
 }
