@@ -1,5 +1,13 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
+#include <stdlib.h>
+	/*Library for open system call man open*/
+	#include <sys/types.h>
+	#include <sys/stat.h>
+	#include <fcntl.h>
+
+	/*Library for close and write system call man close*/
+	#include <unistd.h>
 
 int _putchar(char c);
 
