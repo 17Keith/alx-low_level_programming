@@ -38,7 +38,7 @@ int binary_search(int *array, size_t size, int value)
   * @p: beginning
   * @q: end
   */
-void print_array(int *array, size_t i, size_t j)
+void print_array(int *array, size_t p, size_t q)
 {
 	size_t abc;
 
