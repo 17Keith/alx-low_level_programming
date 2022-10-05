@@ -43,7 +43,7 @@ void print_array(int *array, size_t p, size_t q)
 	size_t abc;
 
 	printf("Searching in array: ");
-	for (abc = i; abc < j; abc++)
+	for (abc = p; abc < q; abc++)
 		printf("%d, ", array[abc]);
 	printf("%d\n", array[abc]);
 }
